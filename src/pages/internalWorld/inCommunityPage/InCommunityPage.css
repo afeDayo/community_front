@@ -1,0 +1,147 @@
+.dash-incom {
+  position: relative;
+  margin-top: 76px;
+  width: 1222px;
+  margin-left: 216px;
+  z-index: 0;
+  border: 0.5px solid #898989;
+}
+
+.incomm-go {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1164px;
+  margin: 20.73px auto;
+}
+
+.incomm-course {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.incomm-course a:nth-of-type(1) {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.incomm-course a:nth-of-type(2),
+.incomm-course a:nth-of-type(3) {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #9d9d9d;
+}
+
+.incomm-coh {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 137px;
+  border: 1px solid #00000080;
+  padding: 5px 14px;
+}
+
+/* ============================================ */
+
+.allincomm {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 22.93px;
+}
+
+.incommmm1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 22px;
+}
+
+.incomm-prof {
+  background-color: #cee6ff;
+  padding: 22px 69px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 7.7px;
+}
+
+.img-prof-incom {
+  border-radius: 50%;
+  width: 117.34px;
+  margin: 0 auto;
+}
+
+.incomm-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
+}
+
+.inner-incomm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.inner-incomm p {
+  font-size: 16.54px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.incomm-details p:nth-of-type(1) {
+  font-size: 15.08px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.incomm-details p:nth-of-type(2) {
+  font-size: 13px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.incomm-prof a {
+  text-decoration: none;
+  background-color: #0266f4;
+  padding: 4px 32px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* =============================================== */
+
+.com_pagesin {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.com_pagin {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.com_pagin p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3685f5;
+}

@@ -1,0 +1,271 @@
+.dash-injob {
+  position: relative;
+  margin-top: 76px;
+  width: 1170px;
+  margin-left: 216px;
+  z-index: 0;
+  border: 0.5px solid #898989;
+  padding: 0 26px;
+}
+
+.injob-al {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.injob-allnsav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.injob-allnsav a:nth-of-type(1) {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.injob-allnsav a:nth-of-type(2) {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #9d9d9d;
+}
+
+.injob-sort {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 37px;
+  border: 0.5px solid #00000080;
+  padding: 5px 14px;
+  border-radius: 5px;
+}
+
+.injob-sort {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2%;
+  color: #000000;
+}
+
+/* ======================================= */
+
+.injob-con {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 50px;
+}
+
+.injobeach-con {
+  border: 0.5px solid #292929;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inner-injob {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 56px;
+}
+
+.upin-injob {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+}
+
+.upper-injob {
+  width: 1110px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.left-upperinj {
+  width: 298px;
+  height: 139px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.left-upperinjtit {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.left-upperinjtit h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.flutterlogo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.flutterlogo p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.left-upperinjtrig {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.injob-locate {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.left-upperinjtrig p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.right-upperinj {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 42px;
+}
+
+.right-upperinj a {
+  text-decoration: none;
+  background-color: #0266f4;
+  padding: 15px 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.greentick {
+  box-shadow: 0px 1px 4px 0px #00000040;
+  border-radius: 10px;
+  width: 57px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.injobmain-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+  color: #000000ad;
+}
+
+.downin-injob {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+.downupper-injob {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 25px;
+}
+
+.downupper-injob h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.downupper-injob p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.downlower-injob {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+}
+
+.downlower-injob h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #292929;
+}
+
+.injobs-keys {
+  display: flex;
+  align-items: start;
+  gap: 5px;
+  position: relative;
+}
+
+.injobs-keys p:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.injobs-keys p:nth-of-type(1) {
+  font-size: 28px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 0;
+  left: -15px;
+}
+
+.injob-hr {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a70cc;
+}
+
+/* =============================================== */
+
+.job_pagesin {
+  margin: 77px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.job_pagin {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job_pagin p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3685f5;
+}

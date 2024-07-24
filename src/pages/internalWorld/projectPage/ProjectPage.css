@@ -1,0 +1,147 @@
+.inprojects-sec {
+  border: 0.5px solid #898989;
+  position: relative;
+  margin-top: 76px;
+  width: 1222px;
+  margin-left: 216px;
+  text-align: start;
+  padding-top: 50px;
+}
+
+.allinprojects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 21px;
+  width: 1123px;
+  margin: 0 auto;
+}
+
+.inpro-one {
+  width: 549px;
+  background-color: #d9d9d9;
+  border: 2px dashed #000000;
+  border-radius: 20px;
+  height: 287px;
+}
+
+.addproplus {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-top: 82px;
+}
+
+.addproplus h3 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2%;
+  color: #000000;
+}
+
+.inpro-one p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2%;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 27px;
+  text-align: center;
+}
+
+/* ============================================== */
+
+.eachinprojects {
+  width: 551px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+}
+
+.projectzone {
+  position: relative;
+}
+
+.projectzone img:nth-of-type(1) {
+  border-radius: 20px;
+  margin: 0 1.5px;
+}
+
+.projectdel {
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectengage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 531.82px;
+  margin: auto;
+}
+
+.projectengage p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2%;
+  color: #000000;
+}
+
+.projlikenviewz {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 19px;
+}
+
+.projlikez,
+.projviewz {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 4px;
+}
+
+.projlikez p,
+.projviewz p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2%;
+  color: #000000ab;
+}
+
+/* =============================================== */
+
+.inproject_pagesin {
+  margin: 82px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.inproject_pagin {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inproject_pagin p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3685f5;
+}

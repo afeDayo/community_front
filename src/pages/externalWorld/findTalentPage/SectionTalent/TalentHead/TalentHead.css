@@ -1,0 +1,85 @@
+.talent_sec {
+  display: flex;
+  justify-content: end;
+}
+
+.talent_con {
+  padding-top: 59px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1341px;
+}
+
+.talent_text {
+  margin-top: 98px;
+  text-align: start;
+}
+
+.talent_text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.47px;
+  color: #1f2666;
+  padding-right: 300px;
+}
+
+.talent_text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #1e1e1e;
+  padding-right: 220px;
+  margin-top: 50px;
+}
+
+.talent_form {
+  padding: 70px 91px 70px 68px;
+  position: relative;
+  background-color: #dce9fa;
+}
+
+.talent_form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 437px;
+  padding: 40px;
+  gap: 40px;
+  position: relative;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-right: 60px;
+  margin-bottom: 52px;
+  z-index: 2;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.talent_form img {
+  position: absolute;
+  right: 105px;
+  bottom: 75px;
+  z-index: 0;
+}
+
+form .thead_in {
+  padding: 20px 15px;
+  border-radius: 5px;
+  border: 1px solid #bababa;
+}
+
+form .thead_in::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+
+form .thead_a {
+  text-decoration: none;
+  padding: 20px 135px;
+  border-radius: 5px;
+  background-color: #0266f4;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+}

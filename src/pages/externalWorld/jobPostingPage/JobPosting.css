@@ -1,0 +1,319 @@
+.jobp_sec {
+  background-color: #f9f9f9;
+  padding: 108px 0;
+}
+
+.jobp_con {
+  max-width: 1240px;
+  margin: auto;
+  /* border: 3px solid red; */
+}
+
+.job_req {
+  width: 754.5px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  /* margin-top: 108px; */
+  margin-bottom: 54.24px;
+}
+
+.cancle_back {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 10px;
+  background-color: #e3e3e3;
+}
+
+.cancle_back p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+
+.job_req h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f2666;
+}
+
+/* ================================= */
+
+.post_form {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 18px 5px #00000026;
+  border-top: 9px solid #0266f4;
+  border-radius: 5px;
+  padding-top: 80px;
+  margin-bottom: 86px;
+}
+
+.allin_form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 80px;
+  width: 1030px;
+  margin: auto;
+}
+
+/* =========================== */
+
+.jt_jl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jt,
+.jl {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.jt label,
+.jl label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.jt input,
+.jl input {
+  padding: 20px 15px;
+  width: 452px;
+  border-radius: 5px;
+  border: 1px solid #bababa;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.jt input::placeholder,
+.jl input::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+
+/* ======================== */
+
+.wp_wl,
+.wpr_fhl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wp,
+.wl,
+.wpr,
+.fhl {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.wp label,
+.wl label,
+.wpr label,
+.fhl label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.wp input,
+.wl input,
+.wpr input,
+.fhl input {
+  padding: 20px 15px;
+  width: 452px;
+  border-radius: 5px;
+  border: 1px solid #bababa;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  /* position: relative; */
+}
+
+.wp input::placeholder,
+.wl input::placeholder,
+.wpr input::placeholder,
+.fhl input::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+
+.wp img,
+.wl img,
+.wpr img,
+.fhl img {
+  position: absolute;
+  bottom: 23px;
+  right: 15px;
+}
+
+/* ========================= */
+
+.j_offer,
+.min_q,
+.resties {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+.j_offer label,
+.min_q label,
+.resties label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.j_offer textarea,
+.min_q textarea,
+.resties textarea {
+  width: 1035px;
+  height: 331px;
+  padding: 20px 15px;
+  overflow: hidden;
+  resize: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #bababa;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.j_offer textarea::placeholder,
+.min_q textarea::placeholder,
+.resties textarea::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+
+/* =========================== */
+
+.wsk_wtw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wsk,
+.wtw {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.wsk label,
+.wtw label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.wsk input,
+.wtw input {
+  padding: 20px 15px;
+  width: 452px;
+  border-radius: 5px;
+  border: 1px solid #bababa;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  /* position: relative; */
+}
+
+.wsk input::placeholder,
+.wtw input::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+
+.wsk img,
+.wtw img {
+  position: absolute;
+  bottom: 150px;
+  right: 15px;
+}
+
+.skil,
+.tool {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 13px;
+}
+
+.uidx,
+.front_b,
+.figa,
+.corel_d {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
+.figa p,
+.front_b p,
+.uidx p,
+.corel_d p {
+  background-color: #c6c6c6;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* ================================= */
+
+.low_casu {
+  background-color: #f9f9f9;
+  padding: 20px 106px;
+  margin-top: 80px;
+  text-align: start;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.can_sub {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+
+.cannc {
+  text-decoration: none;
+  border: 1px solid #ce1126;
+  padding: 17px 50px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ce1126;
+}
+
+.subbm {
+  text-decoration: none;
+  background-color: #0266f4;
+  padding: 17px 50px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  /* margin-left: ; */
+}

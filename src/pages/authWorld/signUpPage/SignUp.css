@@ -1,0 +1,341 @@
+.signup {
+  display: flex;
+  /* align-items: center; */
+  justify-content: start;
+  position: relative;
+}
+
+.signup_logos {
+  background: var(--Colors-hover, #0266f4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 157.3px;
+  width: 692px;
+  position: fixed;
+  top: 0;
+  height: 100%;
+}
+
+.suplogo {
+  margin-top: 42px;
+}
+
+/* ========================================= */
+
+.supform_con {
+  padding: 52px 54px 79px 54px;
+  position: relative;
+  /* background-color: red; */
+  margin-left: 690px;
+}
+
+.form_gray {
+  background-color: #d9d9d9;
+  text-align: start;
+  position: relative;
+  padding: 56px;
+  border-radius: 15.88px;
+  border-top: 10px solid #0266f4;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 41px;
+}
+
+.up_reg {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 11.11px;
+}
+
+.up_reg h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.up_reg p {
+  font-size: 19.05px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* ================================ */
+
+.signup_form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 28px;
+}
+
+/* ================= */
+
+.sufn_suln {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 22px;
+}
+
+.sufn,
+.suln {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 14.29px;
+}
+
+.sufn label,
+.suln label {
+  font-size: 14.29px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.sufn input,
+.suln input {
+  padding: 15px 20px;
+  width: 192px;
+  border-radius: 3.97px;
+  border: 0.79px solid #00000080;
+  font-size: 15.77px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* ================= */
+
+.sucg {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 19px;
+  position: relative;
+  margin-top: 1px;
+}
+
+.sucg label {
+  font-size: 14.29px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.sucg input {
+  padding: 13.71px 20px;
+  width: 446px;
+  border-radius: 3.97px;
+  border: 0.69px solid #00000080;
+  font-size: 15.77px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.sucg input::placeholder {
+  font-size: 15.77px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.sucg img {
+  position: absolute;
+  bottom: 17.775px;
+  right: 20px;
+}
+
+/* ================= */
+
+.suea {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12.19px;
+}
+
+.suea label {
+  font-size: 14.29px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.suea_upin {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.suea_upin p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.suea input {
+  padding: 13.71px 20px;
+  width: 446px;
+  border-radius: 3.97px;
+  border: 0.69px solid #00000080;
+  font-size: 15.77px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* ==================== */
+
+.suchot {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 11.11px;
+}
+
+.suchot label {
+  font-size: 14.29px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.suchot input {
+  padding: 14.9px 20px;
+  width: 446px;
+  border-radius: 3.97px;
+  background-color: #b8b8b8;
+  border: none;
+  font-size: 15.77px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* =============== */
+
+.supass {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 11.11px;
+  position: relative;
+}
+
+.supass label {
+  font-size: 14.29px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.supass input {
+  padding: 14.9px 20px;
+  width: 446px;
+  border-radius: 3.97px;
+  border: 0.69px solid #00000080;
+  font-size: 15.77px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.supass img {
+  position: absolute;
+  bottom: 17px;
+  right: 20px;
+}
+
+/* =============== */
+
+.sucompass {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 11.11px;
+  position: relative;
+}
+
+.sucompass label {
+  font-size: 14.29px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.sucompass input {
+  padding: 14.9px 20px;
+  width: 446px;
+  border-radius: 3.97px;
+  border: 0.69px solid #00000080;
+  font-size: 15.77px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.sucompass img {
+  position: absolute;
+  bottom: 17px;
+  right: 20px;
+}
+
+/* =============== */
+
+.sureg {
+  /* margin: auto; */
+  margin-top: 24px;
+  text-decoration: none;
+  background-color: #0266f4;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 13.37px 212px;
+  border-radius: 5px;
+}
+
+/* ====================== */
+
+.lowersup {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  margin-top: 35px;
+}
+
+.ahaal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ahaal p {
+  font-size: 14.29px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.ahaal a {
+  text-decoration: none;
+  font-size: 14.29px;
+  font-weight: 400;
+  color: var(--Colors-hover, #0266f4);
+}
+
+.line_or {
+  position: relative;
+}
+
+.line_or h3 {
+  position: absolute;
+  background-color: #d9d9d9;
+  left: 40%;
+  right: 40%;
+  top: -15px;
+}
+
+/* =============== */
+
+.twfago {
+  width: 153.99px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12.7px;
+}

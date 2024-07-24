@@ -1,0 +1,205 @@
+.signin {
+  display: flex;
+  /* align-items: center; */
+  justify-content: start;
+  position: relative;
+}
+
+.signin_logos {
+  background: var(--Colors-hover, #0266f4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 157.3px;
+  width: 692px;
+}
+
+.sinlogo {
+  margin-top: 42px;
+}
+
+/* ===================== */
+
+.sinform_con {
+  padding: 52px 54px 79px 54px;
+  position: relative;
+}
+
+.form_grayin {
+  background-color: #d9d9d9;
+  text-align: start;
+  position: relative;
+  padding: 56px 56px 15px 56px;
+  border-radius: 15.88px;
+  border-top: 10px solid #0266f4;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 41px;
+}
+
+.in_reg {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 11.11px;
+}
+
+.in_reg h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.in_reg p {
+  font-size: 19.05px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* ======================== */
+
+.signin_form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 28px;
+}
+
+/* ========================= */
+
+.sinass {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 11.11px;
+  position: relative;
+}
+
+.sinass label {
+  font-size: 14.29px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.sinass input {
+  padding: 14.9px 20px;
+  width: 446px;
+  border-radius: 3.97px;
+  border: 0.69px solid #00000080;
+  font-size: 15.77px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.sinass img {
+  position: absolute;
+  bottom: 17px;
+  right: 20px;
+}
+
+/* =============== */
+
+.sicompass {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 11.11px;
+  position: relative;
+}
+
+.sicompass label {
+  font-size: 14.29px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.sicompass input {
+  padding: 14.9px 20px;
+  width: 446px;
+  border-radius: 3.97px;
+  border: 0.69px solid #00000080;
+  font-size: 15.77px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.sicompass img {
+  position: absolute;
+  bottom: 42px;
+  right: 20px;
+  color: #0266f4;
+}
+
+.sicompass a {
+  text-decoration: none;
+  font-size: 14.29px;
+  font-weight: 400;
+}
+
+/* =============== */
+
+.sireg {
+  /* margin: auto; */
+  /* margin-top: 24px; */
+  text-decoration: none;
+  background-color: #0266f4;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 13.37px 222px;
+  border-radius: 5px;
+}
+
+/* ====================== */
+
+.lowersin {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  margin-top: 35px;
+}
+
+.ahaalin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ahaalin p {
+  font-size: 14.29px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.ahaalin a {
+  text-decoration: none;
+  font-size: 14.29px;
+  font-weight: 400;
+  color: var(--Colors-hover, #0266f4);
+}
+
+.line_orin {
+  position: relative;
+}
+
+.line_orin h3 {
+  position: absolute;
+  background-color: #d9d9d9;
+  left: 40%;
+  right: 40%;
+  top: -15px;
+}
+
+/* =============== */
+
+.twfagoin {
+  width: 153.99px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12.7px;
+}

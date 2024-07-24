@@ -1,0 +1,73 @@
+.works_con {
+  margin: 56px auto;
+  max-width: 1240px;
+}
+
+.recent_works {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 16px;
+  border-bottom: 1.5px solid rgba(217, 217, 217, 0.5);
+}
+
+.recent_works h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #292929;
+}
+
+.filter_p {
+  border: 1px solid rgba(30, 30, 30, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 51px;
+  border-radius: 5px;
+  padding: 5px 14px;
+}
+
+.recent_works p {
+  font-size: 18px;
+  letter-spacing: 2%;
+  font-weight: 600;
+  color: #000000;
+}
+
+.filter_recent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.lower_project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.lil_pic {
+  display: flex;
+  align-items: center;
+  gap: 3.01px;
+}
+
+.engage {
+  display: flex;
+  align-items: center;
+  gap: 14.27px;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 3.01px;
+}
+
+.views {
+  display: flex;
+  align-items: center;
+  gap: 1.5px;
+}

@@ -1,0 +1,148 @@
+footer {
+  background-color: #1f2666;
+  padding-top: 48px;
+  padding-bottom: 55px;
+}
+
+.fot_one {
+  max-width: 1240px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  align-items: center;
+  gap: 178px;
+  padding-bottom: 14.3px;
+}
+
+.one_fot {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+}
+
+.one_fot p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 2%;
+  color: #ffffff;
+  padding-right: 20px;
+}
+
+.two_fot {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.two_fot p {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2%;
+  color: #ffffff;
+}
+
+.quick_a {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+}
+
+.quick_a a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2%;
+}
+
+.three_fot {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 25px;
+}
+
+.three_fot p {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.newz_one {
+  position: relative;
+}
+
+.newz_one input {
+  width: 352px;
+  padding: 14px 11px;
+  border-radius: 5px;
+  border: none;
+}
+
+.newz_one input::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6c757d;
+}
+
+.sub_newz {
+  background-color: #0266f4;
+  width: 72px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 3px;
+  position: absolute;
+  top: 9%;
+  right: 11px;
+}
+
+.sub_newz a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.sub_newz img {
+  width: 16px;
+  height: 15.56px;
+}
+
+/* ========================================= */
+
+.fot_two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+  padding-top: 31px;
+  border-top: 1.4px solid #ffffff;
+  max-width: 1240px;
+  margin: auto;
+  margin-top: 28px;
+}
+
+.fot_two p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.fot_two div {
+  display: flex;
+  align-items: center;
+  width: 179px;
+  justify-content: space-between;
+}

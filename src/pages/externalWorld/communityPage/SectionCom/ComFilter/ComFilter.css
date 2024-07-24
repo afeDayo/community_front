@@ -1,0 +1,128 @@
+.com_filcon {
+  max-width: 1240px;
+  margin: 50px auto;
+}
+
+.com_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.com_select {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  border: 1px solid #0266f4;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.com_select p {
+  font-size: 18.51px;
+  font-weight: 700;
+  letter-spacing: 2%;
+  color: #0266f4;
+}
+
+.com_member {
+  position: relative;
+}
+
+.com_member input {
+  width: 344px;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #606060;
+  font-size: 18.51px;
+  font-weight: 700;
+  letter-spacing: 2%;
+  color: #000000;
+  position: relative;
+}
+
+.com_member input::placeholder {
+  font-size: 18.51px;
+  font-weight: 700;
+  letter-spacing: 2%;
+  color: #606060;
+}
+
+.com_member img {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+/* ======================================== */
+
+.com_filter {
+  margin-top: 51px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 23px;
+}
+
+.fil_members {
+  width: 292px;
+  padding: 16px 0;
+  background-color: #d2d4e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+.com_iden {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.com_name {
+  font-size: 18px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.com_car {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.com_field {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* ======================================= */
+
+.com_pages {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.com_pag {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.com_pag p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3685f5;
+}

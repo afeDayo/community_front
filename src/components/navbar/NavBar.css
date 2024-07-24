@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.first_a a,
+.sec_a button,
+.sec_a a {
+  font-family: "Open Sans", sans-serif;
+}
+
+.exnav {
+  background: #1f2666;
+  padding: 22px 0;
+}
+
+.inner_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.first_a {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.first_a a {
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2%;
+}
+
+.sec_a {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.sec_a button {
+  background: #0266f4;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 33px 10px 33px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 2%;
+}
+
+.sec_a a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 2%;
+}
