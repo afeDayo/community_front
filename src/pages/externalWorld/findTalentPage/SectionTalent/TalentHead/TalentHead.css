@@ -76,7 +76,7 @@ form .thead_in::placeholder {
 
 form .thead_a {
   text-decoration: none;
-  padding: 20px 135px;
+  padding: 20px 0;
   border-radius: 5px;
   background-color: #0266f4;
   color: #ffffff;

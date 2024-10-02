@@ -11,6 +11,7 @@
   margin-bottom: 40px;
   padding-bottom: 16px;
   border-bottom: 1.5px solid rgba(217, 217, 217, 0.5);
+  position: relative;
 }
 
 .recent_works h2 {
@@ -23,9 +24,49 @@
   border: 1px solid rgba(30, 30, 30, 0.5);
   display: flex;
   align-items: center;
-  gap: 51px;
+  width: 213.87px;
+  justify-content: space-between;
   border-radius: 5px;
   padding: 5px 14px;
+  cursor: pointer;
+}
+
+.filter_p img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.home_rotate {
+  transform: rotate(180deg);
+}
+
+.home_dropdown {
+  position: absolute;
+  text-align: start;
+  top: 70%;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  transition: transform 0.5s ease-in-out;
+  transform: scaleY(1);
+  transform-origin: top;
+  width: 213.87px;
+  padding-right: 26px;
+  border-radius: 5px;
+}
+
+.home_dropdown p {
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home_dropdown p:hover {
+  color: blue;
+}
+
+.home_dropdown-hidden {
+  transform: scaleY(0);
 }
 
 .recent_works p {

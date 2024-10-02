@@ -1,5 +1,6 @@
 import React from "react";
 import "./BlueSectionLand.css";
+import { Link } from "react-router-dom";
 
 const BlueSectionLand = () => {
   return (
@@ -24,7 +25,7 @@ const BlueSectionLand = () => {
               Academy!
             </p>
             <div className="blue_but">
-              <a href="#">Join Community</a>
+              <Link to="/signup">Join Community</Link>
             </div>
           </div>
         </div>

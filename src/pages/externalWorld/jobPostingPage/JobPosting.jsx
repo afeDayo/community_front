@@ -1,16 +1,17 @@
 import React from "react";
 import "./JobPosting.css";
 import Footer from "../../../components/footer/Footer";
+import { Link } from "react-router-dom";
 
 const JobPosting = () => {
   return (
     <section className="jobp_sec">
       <div className="jobp_con">
         <div className="job_req">
-          <div className="cancle_back">
+          <Link to="/find_talent" className="cancle_back">
             <img src="../../../../src/assets/EXTERNAL/jobparr1.svg" alt="" />
             <p>CANCEL & GO BACK</p>
-          </div>
+          </Link>
 
           <h2>Job Requirement</h2>
         </div>
@@ -168,9 +169,9 @@ const JobPosting = () => {
 
           <div className="low_casu">
             <div className="can_sub">
-              <a className="cannc" href="">
+              <Link to="/find_talent" className="cannc">
                 CANCEL
-              </a>
+              </Link>
               <a className="subbm" href="">
                 SUBMIT
               </a>

@@ -1,15 +1,18 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
       <div className="fot_one">
         <div className="one_fot">
-          <img
-            src="../../../src/assets/EXTERNAL/TSA community 1.png"
-            alt="foot_logo"
-          />
+          <Link to="/">
+            <img
+              src="../../../src/assets/EXTERNAL/TSA community 1.png"
+              alt="foot_logo"
+            />
+          </Link>
           <p>
             Welcome to Tech studio community hub, where you connect with fellow
             tech enthusiasts, share knowledge, and explore endless
@@ -20,9 +23,9 @@ const Footer = () => {
         <div className="two_fot">
           <p>Quick Links</p>
           <div className="quick_a">
-            <a href="#">Community</a>
-            <a href="#">Find Talent</a>
-            <a href="#">Go to Main Website</a>
+            <Link to="/community">Community</Link>
+            <Link to="/find_talent">Find Talent</Link>
+            <Link to="/signup">Go to Main Website</Link>
           </div>
         </div>
 
@@ -41,10 +44,24 @@ const Footer = () => {
       <div className="fot_two">
         <p>Terms and Policy</p>
         <div>
-          <img src="../../../src/assets/EXTERNAL/X.png" alt="twitter" />
-          <img src="../../../src/assets/EXTERNAL/IG.png" alt="IG" />
-          <img src="../../../src/assets/EXTERNAL/FB.png" alt="fb" />
-          <img src="../../../src/assets/EXTERNAL/LINK.png" alt="LINKDEN" />
+          <a href="https://x.com/techstudioacdmy" target="_blank">
+            <img src="../../../src/assets/EXTERNAL/X.png" alt="twitter" />
+          </a>
+          <a
+            href="https://www.instagram.com/techstudioacademy/"
+            target="_blank"
+          >
+            <img src="../../../src/assets/EXTERNAL/IG.png" alt="IG" />
+          </a>
+          <a href="https://www.facebook.com/techstudioacademy" target="_blank">
+            <img src="../../../src/assets/EXTERNAL/FB.png" alt="fb" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/tech-studio-academy"
+            target="_blank"
+          >
+            <img src="../../../src/assets/EXTERNAL/LINK.png" alt="LINKDEN" />
+          </a>
         </div>
       </div>
     </footer>

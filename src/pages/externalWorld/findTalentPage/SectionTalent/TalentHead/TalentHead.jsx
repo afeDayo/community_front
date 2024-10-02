@@ -1,5 +1,6 @@
 import React from "react";
 import "./TalentHead.css";
+import { Link } from "react-router-dom";
 
 const TalentHead = () => {
   return (
@@ -24,9 +25,9 @@ const TalentHead = () => {
               placeholder="Your Full Name"
             />
             <input className="thead_in" type="text" placeholder="Your Email" />
-            <a className="thead_a" href="">
+            <Link to="/job_posting" className="thead_a">
               Get Started
-            </a>
+            </Link>
           </form>
           <img
             src="../../../../../../src/assets/EXTERNAL/ellipsses.png"
